@@ -26,8 +26,8 @@ const Topbar = () => {
     <div className="menuDiv">
       <Navbar variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand as={Link} to="/movie/:movieId">
-            {/* <Image src={logo1} />  */}Film Merkezi
+          <Navbar.Brand as={Link} to="/dizi">
+            {/* <Image src={logo1} />  */}Movie Center
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -39,7 +39,7 @@ const Topbar = () => {
                 Animation
               </Nav.Link>
               <Nav.Link as={Link} to="/komedi">
-                Aksiyon
+                New and Popular
               </Nav.Link>
               <Nav.Link as={Link} to="/dizi">
                 Now-Playing
