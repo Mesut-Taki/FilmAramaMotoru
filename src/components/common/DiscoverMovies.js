@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { getTrendMovies, searchMovies } from "../../api/UserService";
-import Movie from "../common/Discover";
+import Discover from "../common/Discover";
 import Topbar from "../auth/TopBar";
 
 const DiscoverMovies = () => {
@@ -64,7 +64,7 @@ const DiscoverMovies = () => {
           {movies.length > 0 &&
             movies.map((item) => (
               <Col className="m-3" onClick={() => checkDetail(item.id)}>
-                <Movie key={item.id} {...item} />
+                <Discover key={item.id} {...item} />
               </Col>
             ))}
         </Row>

@@ -5,7 +5,7 @@ import { getMovieDetail } from "../../api/UserService";
 
 const IMG_API = "https://image.tmdb.org/t/p/w500";
 
-const DiscoverMovieDetails = ({ movieId }) => {
+const DiscoverMovieDetay = ({ movieId }) => {
   const [movie, setMovie] = useState({});
   const navigate = useNavigate();
 
@@ -49,4 +49,4 @@ const DiscoverMovieDetails = ({ movieId }) => {
   );
 };
 
-export default DiscoverMovieDetails;
+export default DiscoverMovieDetay;

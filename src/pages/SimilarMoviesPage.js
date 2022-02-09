@@ -1,4 +1,5 @@
 import React from "react";
+
 import SimilarMovies from "../components/species/SimilarMovies";
 
 const SimilarMoviesPage = () => {
